@@ -27,7 +27,7 @@ This solution can be new feature of the maybank2u app or the indepent applicatio
 <br /><br />
 **Some screenshot**
 
-<br /><br />
+<br />
 Login page
 
 ![](https://raw.githubusercontent.com/lim2481284/littlewallet/master/assets/screenshot/login.PNG)
