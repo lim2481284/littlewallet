@@ -6,7 +6,7 @@ A gamification solution that give better way to educate youth about financing by
 This solution can be new feature of the maybank2u app or the indepent application.
 
 
-<br />
+
 **Current progress**
 
 `50% of the prototype  : only child UI page and login page`
