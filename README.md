@@ -7,7 +7,6 @@ This solution can be new feature of the maybank2u app or the indepent applicatio
 
 <br />
 **Current progress**
-
 `50% of the prototype  : only child UI page and login page`
 
 <br /><br />
