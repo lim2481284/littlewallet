@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Little Wallet****
+=======
+# Little Wallet
+>>>>>>> 6a10fa32188ef9c16fe98179b51d88b8a45328b2
 A gamification solution that give better way to educate youth about financing by connecting youth with parent and social media.
 
 This solution can be new feature of the maybank2u app or the indepent application.
