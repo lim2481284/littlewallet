@@ -1,0 +1,68 @@
+Todo 
+	- github documentation, landing page, user manual 
+	--- until 10 pm
+	= change slogan 
+	- video 
+
+littlespend
+0 - education profile 
+1 - child create goal like buy compute
+2 - parent create for children 
+	- when children achieve task
+	- parent transfer money to children 
+	- linking account 
+3 - create education profile to children 
+4 - linking the their finance timeline to social media 
+	- generate timeline , goal progress , reminder, advisor 
+
+5 - parent understand child money management and spending behave 
+
+
+
+
+littlespend is the maybank2u planner application for children and teenegaer  which linking children/teen to their parent and make prediction model 
+based on their spending goal 
+
+
+
+Poor money management is one of the top reason that cause bankrupt.
+The earlier a child/teenage learn about finance, the better money manager they will become
+
+But there a few challenge
+
+they are hard to undersatnd that the money is earned instead of taking from parent 
+
+they are hard to understand the value of money
+
+lack of motivation 
+
+hard to explain real world economic envrionment 
+
+hard to deliver the finance message to them
+
+so how can we overcome these challenge ?
+
+Introducing little wallet 
+
+
+***
+a gamify solution that allow child to earn money by completing parent's task to achieve their goal
+	- linking parent and child
+	- connect bank account to social media
+	- 
+here is 
+how it work ? 
+	1 - child / teen login with maybank account 
+	2 - setup their profile 
+		- parent bank acc 
+		- hobby / interested thing 
+		- social media account name 
+
+	3 - parent login and verify their child acc 
+	4 - create task with amount of money 
+	5 - once child/teen complete the task , parent click on completed button and transfer money to them
+	6 - parent can check their spending behave and view the money management prediction model based on their spending data 
+	7 - AI social media bot will post their status and deliver the finance messaage to them ( privately ) 
+
+
+
