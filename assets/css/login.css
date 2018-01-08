@@ -1,0 +1,226 @@
+/* Font declare */
+
+@font-face {
+    font-family: Hobo;
+    src:url('../fonts/Hobo.woff') format('woff');
+}
+/* BASIC THEME CONFIGURATION */
+body {
+    font-family: 'Hobo' !important;
+}
+input::placeholder{
+	color:#dadada;
+}
+.inactive{
+	background:transparent;
+	border:none;
+	font-size:80%;
+	outline:none;
+	color:white;
+	outline:none;
+	font-family:Hobo;
+	margin-top:10px;
+	transition:all 1s;
+}
+.inactive:hover{
+	opacity:0.6;
+}
+
+.active{
+	outline:none;
+	background:transparent;
+	border:1px solid white;
+	border-radius:20px;
+	padding: 10px 40px 10px 40px;
+	color:white;
+	font-family:Hobo;
+	transition:all 1s;
+}
+.active:hover{
+	background:white;
+	color:red;
+}
+
+
+body{
+	background:white;
+	overflow:hidden;
+}
+.navigate{
+	position:absolute;
+	height:200vh;
+	top: 100%;
+	width:1vw;
+}
+.formBox{
+	position:absolute;
+	z-index:0;
+	width:100vw;
+	height:auto;
+	top: 150%;
+}
+.formInput{
+	position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+	    height: 25vh;
+}
+.registerForm{
+	display:none;
+	height:45vh;
+}
+
+input{
+	 font-family:Hobo;
+	outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.dotBox{
+	position: relative;
+    padding-top: 70vh;
+}
+.formArea{
+	position:relative;
+}
+.form{
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+	-webkit-animation: smallBeat 20s linear infinite;
+}
+
+.dot{
+
+	background-image: url('../img/dot.png');
+	height:0vh;
+	width:1vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+.cover{
+	z-index:-100;
+	position:fixed;
+	background-image: url('../img/bgCover.png');
+	width: 100vw;
+	height:100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.logo {
+	position: absolute;
+	width: 50%;
+	top: 0;
+	bottom: 0;
+	left: 3%;
+	right: 0;
+	margin: auto;
+}
+.loginBox{
+	width:35vw;
+	height:60vh;
+	margin:auto;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	z-index: 100;
+}
+.logoArea{
+	margin-top:10%;
+	position:relative;
+	width:100%;
+	height:15vh;
+}
+.bannerArea{
+	position:relative;
+	width:100%;
+	height:5vh;
+}
+.buttonArea{
+	position:relative;
+	width:100%;
+	height:20vh;
+}
+.banner{
+	position: absolute;
+	width: 20%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.button{
+	position: absolute;
+	width: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	cursor:pointer;
+	padding-right:5%;
+}
+
+.button:hover{
+	 -webkit-animation: smallBeat 0.2s linear infinite;
+}
+
+
+
+
+
+/* Animation */
+
+
+@-webkit-keyframes smallBeat {
+   0%{
+	  -webkit-transform: rotate(0deg);
+
+   }
+   25%{
+	   -webkit-transform: rotate(5deg);
+   }
+   50%{
+	    -webkit-transform: rotate(0deg);
+   }
+   75%{
+	    -webkit-transform: rotate(-5deg);
+   }
+   100{
+		-webkit-transform: rotate(0deg);
+   }
+}
+
+@-webkit-keyframes beat {
+   0%{
+	   width: 60%;
+
+   }
+   75%{
+	    width: 90%;
+   }
+   80%{
+	    width:100%;
+   }
+   100{
+		width: 60%;
+   }
+}

@@ -1,0 +1,34 @@
+.loginBox {
+    width: 100vw;
+    height: 70vh;
+}
+.bannerArea {
+    position: relative;
+    width: 100%;
+    height: 2vh;
+}
+
+.buttonArea {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+}
+.form{
+	width: 90%;
+}
+
+.dot {
+    width: 4vw;
+}
+
+.cover {
+    overflow: hidden;
+    background-image: url(../../img/bgCover_mobile.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-bottom: solid; */
+    border-bottom-color: #628027;
+    border-bottom-width: 5px;
+}

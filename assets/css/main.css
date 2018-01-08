@@ -1,0 +1,168 @@
+.container-top-menu{
+	margin-top:3%;
+	margin-left:3% !important;
+}
+
+.row{
+	position:relative;
+}
+
+.form-group-input{
+	padding-top:5%;
+}
+
+@font-face {
+    font-family: Hobo;
+    src:url('../fonts/Hobo.woff') format('woff');
+}
+/* BASIC THEME CONFIGURATION */
+body {
+    font-family: 'Hobo' !important;
+}
+html{
+	overflow-x:hidden !important;
+}
+#boxscroll{
+	overflow-x:hidden;
+
+}
+
+
+@font-face {
+    font-family: Hobo;
+    src:url('../fonts/Hobo.woff') format('woff');
+}
+
+#bodyContent {
+    opacity: 1;
+    transition: 2s opacity;
+}
+#bodyContent.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+body{
+	font-family:Hobo;
+	background:white;
+	overflow:hidden;
+}
+
+.loader-label{
+		font-size: 120%;
+    margin-top: 1%;
+    color: #0c1525;
+    line-height: 48;
+}
+
+.loader{
+
+	line-height: 100vh;
+    text-align: center;
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	background:white;
+	left:0;
+	top:0;
+	z-index:99123918203912890;
+	opacity:1;
+
+}
+.loader img{
+	z-index: -1;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position:absolute;
+	margin:auto;
+	width:20%;
+	-webkit-animation: beat 1s infinite linear;
+
+}
+
+
+
+
+@-webkit-keyframes beat {
+   0%{
+	   width: 20%;
+
+   }
+   75%{
+	    width: 30%;
+   }
+   80%{
+	    width:40%;
+   }
+   100{
+		width: 20%;
+   }
+}
+
+
+
+/*
+	Styling for popout
+*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index:1;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+}
+.popout {
+  padding: 1%;
+  padding-left:3%;
+  padding-right:3%;
+  background: #fff;
+  width: 100%;
+	height:100%;
+  position: relative;
+
+}
+.popout h3 {
+  padding-left: 15px;
+}
+.popout .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popout .close:hover {
+  color: #06D85F;
+}
+.popout .content {
+	font-size: 15px;
+
+  overflow: auto;
+}
+.box{
+	margin-top:1%;
+	max-height:650px;
+	border:0px solid #ccc;
+    width: 80% ;
+    margin: auto;
+	overflow:auto;
+	overflow-x:hidden;
+	padding-right:5%;
+}

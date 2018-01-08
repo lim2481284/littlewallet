@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maybank - LittleWallet</title>
+
+	<!-- css for all page -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+  	<link href="assets/css/main.css" rel="stylesheet">
+  	<link href="assets/css/responsive/main.css" rel="stylesheet"  media="screen and (max-width : 768px)">
+  	<link rel="stylesheet" href="assets/css/profile.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/responsive/profile.css" media="screen and (max-width : 768px)">
+  	<link rel="stylesheet" href="assets/css/dashboard.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/responsive/dashboard.css" media="screen and (max-width : 768px)">
+
+<link href="assets/css/pnotify.custom.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+  <section id="container" >
+
+      <!---------------------------------
+				    Top menu
+	  ---------------------------------->
+
+		<div class='menuBoxArea'>
+			<div class='col-sm-12'>
+				<div class='menuBox'>
+					<div class="menuIcon icon">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+				</div>
+				<div class='menuLabel'>
+					Menu
+				</div>
+			</div>
+			<div class='col-sm-12'>
+				<div class='subMenuBox homeIcon'>
+					<div class="homeIcon icon">
+						<img class='iconImage' src='assets/img/home.png'/>
+					</div>
+				</div>
+				<div class='menuLabel homeIcon'>
+					Home
+				</div>
+			</div>
+			<div class='col-sm-12'>
+				<div class='subMenuBox profileIcon'>
+					<div class="profileIcon icon">
+						<img class='iconImage' src='assets/img/profile.png'/>
+					</div>
+				</div>
+				<div class='menuLabel profileIcon'>
+					Profile
+				</div>
+			</div>
+		<div class='col-sm-12'>
+				<div class='subMenuBox achievementIcon'>
+					<div class="achievementIcon icon">
+						<img class='iconImage' src='assets/img/achievement.png'/>
+					</div>
+				</div>
+				<div class='menuLabel achievementIcon'>
+					Task
+				</div>
+			</div>
+
+			<div class='col-sm-12'>
+				<div class='subMenuBox logoutIcon'>
+					<div class="logoutIcon icon">
+						<img class='iconImage' src='assets/img/logout.png'/>
+					</div>
+				</div>
+				<div class='menuLabel logoutIcon'>
+					Logout
+				</div>
+			</div>
+		</div>
+
+
+
+<div class='loader'>
+	<img src='assets/img/logo.png'/>
+	<label class='loader-label'> Loading ... </label>
+</div>
+<div id='bodyContent' class='fade-out'>
+
+			<div class='profileTopSection'>
+				<center>
+					<div class='profileBg'>
+						<img class='profilePictureImg' src='assets/img/profile.jpg'/>
+					</div>
+				</center>
+			</div>
+
+		  <!--------------------------------
+
+		        Tab Section
+
+		  ------------------------------------>
+
+		  <div class="tab">
+
+				<ul class="tabs">
+					<li>
+						<a href="#">
+		            <div class='tabTitle'>
+		    					<p class='tabLabel'>PROFILE </p>
+		            </div>
+						</a>
+						<span class=" tabArrow glyphicon glyphicon-triangle-bottom"></span>
+					</li>
+
+					<li>
+						<a class='rankingTab' href="#">
+		          <div class='tabTitle'>
+		            <p class='tabLabel'> RANKING</p>
+		          </div>
+						</a>
+						<span  class="tabArrow tabArrow_second  glyphicon glyphicon-triangle-bottom"></span>
+					</li>
+				</ul> <!-- / tabs -->
+
+
+
+
+		  <!-----------------------------------------------
+
+						Redeem Content
+
+			-------------------------------------------------->
+		  <div class="tab_content">
+
+		     <!-- first tabs_item -->
+		    <div class="tabs_item">
+
+										<div class='col-sm-11 container container-top-menu profileSection'>
+											<label class='titleSection'>Account details</label>
+												<div class='profileArea'>
+														<div class='profileField col-sm-12'>
+																<div class='col-sm-3 profileFieldLabel'>Bank acc </div>
+																<div class='col-sm-9 profileFieldValue name'>92901828</div>
+														</div>
+														<div class='profileField col-sm-12'>
+																<div class='col-sm-3 profileFieldLabel'>Parent bank acc </div>
+																<div class='col-sm-9 profileFieldValue email'>10293048</div>
+														</div>
+
+												</div>
+										</div>
+
+										<div class='col-sm-11 container container-top-menu profileSection'>
+											<label class='titleSection'>Profile details</label>
+												<div class='profileArea'>
+														<div class='profileField col-sm-12'>
+																<div class='col-sm-3 profileFieldLabel'>Facebook account </div>
+																<div class='col-sm-9 profileFieldValue name'>KienSeng</div>
+														</div>
+														<div class='profileField col-sm-12'>
+																<div class='col-sm-3 profileFieldLabel'>Hobby / Interested thing </div>
+																<div class='col-sm-9 profileFieldValue email'> Web development</div>
+														</div>
+
+												</div>
+										</div>
+
+
+
+
+		    </div>
+
+
+
+			 <!-- ranking item -->
+			<div class="tabs_item">
+				<div class='col-sm-11 container container-top-menu rankingSection'>
+						<iframe id='targetFrame' class='rankingFrame' src="assets/iframe/ranking/index.html"></iframe>
+				</div>
+				<div class='scroll'></div>
+			</div>
+
+		  </div>
+		</div>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+    <!-- js for all page -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/common-scripts.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.all.min.js"></script>
+	<script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+	<script type="text/javascript" src="assets/js/profile.js"></script>
+	<script type="text/javascript" src="assets/js/dashboard.js"></script>
+
+
+<script type="text/javascript" src="assets/js/timecube.jquery.js"></script>
+<script type="text/javascript" src="assets/js/timecube.example.js"></script>
+<script src="assets/js/pnotify.custom.min.js"></script>
+
+
+  </body>
+</html>
+
