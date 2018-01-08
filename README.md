@@ -1,15 +1,15 @@
-#Little Wallet
+# Little Wallet****
 A gamification solution that give better way to educate youth about financing by connecting youth with parent and social media.
 
 This solution can be new feature of the maybank2u app or the indepent application.
 
 
-
+<br />
 **Current progress**
 
 `50% of the prototype  : only child UI page and login page`
 
-
+<br /><br />
 **How it work : Original flow**
 1.  Youth have to login with the bank account number
 1. After login, they have to setup their profile
@@ -23,10 +23,12 @@ This solution can be new feature of the maybank2u app or the indepent applicatio
 1. Once youth complete the task, parent can just press confirm button to verify the task and transfer money to their account
 1. Parent can check their children spending behave and money management skill prediction model based on their spending data
 
-
+<br /><br />
 **Some screenshot**
 
+<br /><br />
 Login page
+
 ![](https://raw.githubusercontent.com/lim2481284/littlewallet/master/assets/screenshot/login.PNG)
 
 
